@@ -34,7 +34,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground mb-4"
           >
-           Chee_z
+          Chee_z
           </motion.h1>
 
           <motion.p
