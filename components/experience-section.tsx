@@ -7,14 +7,14 @@ import { useRef } from "react"
 const experiences = [
   {
     role: "Senior Visual Designer",
-    company: "Stellar Creative Agency",
+    company: "Stell Creative Agency",
     duration: "2022 — Present",
     description:
       "Leading brand identity projects for Fortune 500 clients. Increased client retention by 40% through innovative design solutions and strategic brand positioning.",
   },
   {
-    role: "Brand Designer",
-    company: "Nexus Design Studio",
+    role: "Brand Designer & Ambassador",
+    company: "Nex Design Studio", Velvet Capital
     duration: "2019 — 2022",
     description:
       "Developed comprehensive brand systems for 50+ startups. Collaborated with cross-functional teams to deliver cohesive visual identities across digital and print.",
