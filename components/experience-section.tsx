@@ -14,7 +14,7 @@ const experiences = [
   },
   {
     role: "Brand Designer & Ambassador",
-    company: "Nex Design Studio", Velvet Capital
+    company: "Nex Design Studio & Velvet Capital",
     duration: "2019 — 2022",
     description:
       "Developed comprehensive brand systems for 50+ startups. Collaborated with cross-functional teams to deliver cohesive visual identities across digital and print.",
