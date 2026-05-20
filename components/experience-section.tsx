@@ -20,7 +20,7 @@ const experiences = [
       "Developed comprehensive brand systems for 50+ startups. Collaborated with cross-functional teams to deliver cohesive visual identities across digital and print.",
   },
   {
-    role: "UI/UX Designer",
+    role: "UI/Product Designer",
     company: "TechFlow Inc.",
     duration: "2017 — 2019",
     description:
