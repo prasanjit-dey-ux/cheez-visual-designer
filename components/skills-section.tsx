@@ -21,13 +21,17 @@ const skills = [
   { name: "Branding", icon: Sparkles, category: "core" },
   { name: "Motion Design", icon: Play, category: "core" },
   { name: "Social Media Design", icon: Smartphone, category: "core" },
-  { name: "UI/UX", icon: Layout, category: "core" },
+  { name: "UI/Product", icon: Layout, category: "core" },
   { name: "Animations", icon: Film, category: "core" },
   { name: "Prompt Engineering", icon: Wand2, category: "emerging" },
   { name: "Adobe Photoshop", icon: PenTool, category: "tools" },
   { name: "Adobe Illustrator", icon: Layers, category: "tools" },
   { name: "Figma", icon: Figma, category: "tools" },
   { name: "After Effects", icon: Film, category: "tools" },
+  { name: "Canva", icon: Palette, category: "tools" },
+  { name: "CapCut", icon: Film, category: "tools" },
+  { name: "ChatGPT", icon: Sparkles, category: "tools" },
+  { name: "Gemini", icon: Wand2, category: "tools" },
 ]
 
 function SkillCard({
