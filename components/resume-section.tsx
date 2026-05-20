@@ -51,7 +51,7 @@ export function ResumeSection() {
                   Chee_z - Resume 2026
                 </h3>
                 <p className="mt-2 text-muted-foreground text-sm">
-                  PDF document • 2 pages • Last updated January 2024
+                  PDF document • 2 pages • Last updated January 2026
                 </p>
               </div>
             </div>
