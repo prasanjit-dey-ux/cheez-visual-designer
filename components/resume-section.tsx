@@ -48,7 +48,7 @@ export function ResumeSection() {
               {/* Content */}
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-foreground">
-                  Alexandra Chen - Resume 2024
+                  Chee_z - Resume 2026
                 </h3>
                 <p className="mt-2 text-muted-foreground text-sm">
                   PDF document • 2 pages • Last updated January 2024
