@@ -28,20 +28,20 @@ export function ContactSection() {
   const contactLinks = [
     {
       name: "Email",
-      value: "hello@alexandrachen.design",
-      href: "mailto:hello@alexandrachen.design",
+      value: "okaforc110@gmail.com",
+      href: "mailto:okaforc110@gmail.com",
       icon: Mail,
     },
     {
       name: "Behance",
-      value: "behance.net/alexandrachen",
-      href: "https://behance.net",
+      value: "behance.net/Chee_z",
+      href: "https://www.behance.net/Chee_z",
       icon: ExternalLink,
     },
     {
       name: "LinkedIn",
-      value: "linkedin.com/in/alexandrachen",
-      href: "https://linkedin.com",
+      value: "linkedin.com/in/chizoba-okafor-a08b53274",
+      href: "www.linkedin.com/in/chizoba-okafor-a08b53274",
       icon: Linkedin,
     },
   ]
