@@ -77,7 +77,7 @@ export function HeroSection() {
               />
             </a>
             <a
-              href="#resume"
+              href="/resume.pdf"
               className="group inline-flex items-center gap-2 px-6 py-3 border border-border text-foreground font-medium rounded-lg transition-all hover:bg-secondary hover:border-primary/50"
             >
               Download Resume
