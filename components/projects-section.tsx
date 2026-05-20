@@ -12,7 +12,7 @@ const projects = [
     category: "Branding",
     description:
       "Complete brand identity system for a luxury food delivery startup, including logo, packaging, and digital presence.",
-    image: "/projects/lumina.jpg",
+    image: "/projects/myproject.jpg",
     link: "https://www.behance.net/gallery/243720665/FOOD-ORDERING-APP",
     color: "from-cyan-500/20 to-teal-500/20",
   },
