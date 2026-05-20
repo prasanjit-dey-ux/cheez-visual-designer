@@ -11,9 +11,9 @@ const projects = [
     title: "Lumina Brand Identity",
     category: "Branding",
     description:
-      "Complete brand identity system for a luxury skincare startup, including logo, packaging, and digital presence.",
+      "Complete brand identity system for a luxury food delivery startup, including logo, packaging, and digital presence.",
     image: "/projects/lumina.jpg",
-    link: "https://behance.net",
+    link: "https://www.behance.net/gallery/243720665/FOOD-ORDERING-APP",
     color: "from-cyan-500/20 to-teal-500/20",
   },
   {
