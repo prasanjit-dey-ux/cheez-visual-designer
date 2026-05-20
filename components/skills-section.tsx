@@ -28,6 +28,7 @@ const skills = [
   { name: "Adobe Illustrator", icon: Layers, category: "tools" },
   { name: "Figma", icon: Figma, category: "tools" },
   { name: "After Effects", icon: Film, category: "tools" },
+  { name: "Adobe Premiere Pro", icon: Film, category: "tools" },
   { name: "Canva", icon: Palette, category: "tools" },
   { name: "CapCut", icon: Film, category: "tools" },
   { name: "ChatGPT", icon: Sparkles, category: "tools" },
