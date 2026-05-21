@@ -35,12 +35,12 @@ const projects = [
     color: "from-amber-400/20 to-orange-600/20",
   },
   {
-    title: "Verde Sustainability Campaign",
+    title: "Brand visual marketing",
     category: "Social Media",
     description:
-      "Viral social media campaign that reached 10M+ impressions promoting environmental awareness.",
+      "Viral social media visuals that reached 10M+ impressions promoting brand awareness.",
     image: "/projects/verde.jpg",
-    link: "https://behance.net",
+    link: "https://www.behance.net/gallery/243718609/GRAPHIC-DESIGNS",
     color: "from-green-500/20 to-emerald-500/20",
   },
   {
