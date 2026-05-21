@@ -21,7 +21,7 @@ const projects = [
     category: "UI/Product",
     description:
       "Comprehensive redesign of a crypto mobile application, improving user engagement by 45%.",
-    image: "/projects/myproject 2.png",
+    image: "/projects/nexus.jpg",
     link: "https://www.behance.net/gallery/245065021/REDESIGN-OF-A-CRYPTO-WALLET",
     color: "from-cyan-400/20 to-emerald-500/20",
   },
