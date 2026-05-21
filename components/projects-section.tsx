@@ -50,7 +50,7 @@ const projects = [
       "Premium packaging design for specialty design brand, featured in Design Week.",
     image: "/projects/artisan.jpg",
     link: "https://www.behance.net/gallery/243718609/GRAPHIC-DESIGNS",
-    color: "from-amber-500/20 to-orange-500/20",
+    color: "from-amber-300/20 to-yellow-500/20",
   },
   {
     title: "TechSphere Visual Identity",
