@@ -14,7 +14,7 @@ const projects = [
       "Complete brand identity system for a luxury food delivery startup, including logo, packaging, and digital presence.",
     image: "/projects/myproject.jpg",
     link: "https://www.behance.net/gallery/243720665/FOOD-ORDERING-APP",
-    color: "from-cyan-500/20 to-teal-500/20",
+    color: "from-violet-500/20 to-fuchsia-500/20",
   },
   {
     title: "Crypto App Redesign (trustwallet)",
@@ -26,13 +26,13 @@ const projects = [
     color: "from-cyan-400/20 to-emerald-500/20",
   },
   {
-    title: "Ethereal Motion Series",
+    title: "Midnight Network Motion Series",
     category: "Motion Design",
     description:
-      "Award-winning motion graphics campaign for an international music festival.",
+      "Award-winning motion graphics campaign for an international private blockchain.",
     image: "/projects/ethereal.jpg",
-    link: "https://behance.net",
-    color: "from-purple-500/20 to-pink-500/20",
+    link: "https://www.behance.net/gallery/243757641/AI-Video-Contents",
+    color: "from-amber-400/20 to-orange-600/20",
   },
   {
     title: "Verde Sustainability Campaign",
