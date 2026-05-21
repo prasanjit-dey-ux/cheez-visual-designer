@@ -17,13 +17,13 @@ const projects = [
     color: "from-cyan-500/20 to-teal-500/20",
   },
   {
-    title: "Nexus App Redesign",
-    category: "UI/UX",
+    title: "Crypto App Redesign (trustwallet)",
+    category: "UI/Product",
     description:
-      "Comprehensive redesign of a fintech mobile application, improving user engagement by 45%.",
+      "Comprehensive redesign of a crypto mobile application, improving user engagement by 45%.",
     image: "/projects/nexus.jpg",
-    link: "https://behance.net",
-    color: "from-blue-500/20 to-indigo-500/20",
+    link: "https://www.behance.net/gallery/245065021/REDESIGN-OF-A-CRYPTO-WALLET",
+    color: "from-cyan-400/20 to-emerald-500/20",
   },
   {
     title: "Ethereal Motion Series",
