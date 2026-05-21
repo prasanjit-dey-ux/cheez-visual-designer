@@ -44,12 +44,12 @@ const projects = [
     color: "from-sky-400/20 to-cyan-400/20",
   },
   {
-    title: "Artisan Coffee Packaging",
+    title: "Branded mugs and hoodie",
     category: "Packaging",
     description:
-      "Premium packaging design for specialty coffee brand, featured in Design Week.",
+      "Premium packaging design for specialty design brand, featured in Design Week.",
     image: "/projects/artisan.jpg",
-    link: "https://behance.net",
+    link: "https://www.behance.net/gallery/243718609/GRAPHIC-DESIGNS",
     color: "from-amber-500/20 to-orange-500/20",
   },
   {
