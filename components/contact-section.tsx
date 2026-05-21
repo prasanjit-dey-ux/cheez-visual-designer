@@ -41,7 +41,7 @@ export function ContactSection() {
     {
       name: "LinkedIn",
       value: "linkedin.com/in/chizoba-okafor-a08b53274",
-      href: "www.linkedin.com/in/chizoba-okafor-a08b53274",
+      href: "https://www.linkedin.com/in/chizoba-okafor-a08b53274",
       icon: Linkedin,
     },
   ]
