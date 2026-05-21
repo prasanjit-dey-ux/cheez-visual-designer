@@ -53,12 +53,12 @@ const projects = [
     color: "from-amber-300/20 to-yellow-500/20",
   },
   {
-    title: "TechSphere Visual Identity",
+    title: "Synergio Visual Identity",
     category: "Branding",
     description:
       "Modern visual identity for AI technology company, emphasizing innovation and trust.",
     image: "/projects/techsphere.jpg",
-    link: "https://behance.net",
+    link: "https://www.behance.net/gallery/243713397/SYNERGIO-APP",
     color: "from-rose-500/20 to-red-500/20",
   },
 ]
