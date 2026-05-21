@@ -59,7 +59,7 @@ const projects = [
       "Modern visual identity for AI technology company, emphasizing innovation and trust.",
     image: "/projects/techsphere.jpg",
     link: "https://www.behance.net/gallery/243713397/SYNERGIO-APP",
-    color: "from-rose-500/20 to-red-500/20",
+    color: "from-sky-400/20 to-emerald-400/20",
   },
 ]
 
