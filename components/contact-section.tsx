@@ -235,7 +235,7 @@ export function ContactSection() {
                     <Send size={18} />
                   </motion.button>
                 </form>
-              />
+              )}
             </div>
           </motion.div>
         </div>
