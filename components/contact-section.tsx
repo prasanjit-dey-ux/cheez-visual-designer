@@ -15,14 +15,25 @@ export function ContactSection() {
     message: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    // Simulate form submission
-    setIsSubmitted(true)
-    setTimeout(() => {
-      setIsSubmitted(false)
-      setFormData({ name: "", email: "", message: "" })
-    }, 3000)
+    try {
+      const formElement = e.currentTarget
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: new FormData(formElement),
+      })
+
+      if (response.ok) {
+        setIsSubmitted(true)
+        setFormData({ name: "", email: "", message: "" })
+        setTimeout(() => {
+          setIsSubmitted(false)
+        }, 3000)
+      }
+    } catch (error) {
+      console.error("Form submission error:", error)
+    }
   }
 
   const contactLinks = [
@@ -116,7 +127,7 @@ export function ContactSection() {
             </div>
           </motion.div>
 
-          {/* Contact Form */}
+          {/* <form action="https://api.web3forms.com/submit" method="POST">/}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -145,6 +156,15 @@ export function ContactSection() {
                 </motion.div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
+                  {/* Web3Forms hidden field */}
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value={process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || ""}
+                  />
+                  <input type="hidden" name="subject" value="New Contact Form Submission" />
+                  <input type="hidden" name="redirect" value="" />
+
                   <div>
                     <label
                       htmlFor="name"
