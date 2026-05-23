@@ -127,7 +127,7 @@ export function ContactSection() {
             </div>
           </motion.div>
 
-          {/* <form action="https://api.web3forms.com/submit" method="POST">/}
+          {/* <form>/*}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
