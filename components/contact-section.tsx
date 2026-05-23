@@ -160,7 +160,7 @@ export function ContactSection() {
                   <input
                     type="hidden"
                     name="access_key"
-                    value={process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || ""}
+                    value="76e303f8-d60c-4a27-be5e-a44192926830"
                   />
                   <input type="hidden" name="subject" value="New Contact Form Submission" />
                   <input type="hidden" name="redirect" value="" />
