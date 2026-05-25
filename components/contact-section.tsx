@@ -196,6 +196,7 @@ export function ContactSection() {
                     <input
                       type="email"
                       id="email"
+                      name="email"
                       value={formData.email}
                       onChange={(e) =>
                         setFormData({ ...formData, email: e.target.value })
@@ -215,6 +216,7 @@ export function ContactSection() {
                     </label>
                     <textarea
                       id="message"
+                      name="message"
                       value={formData.message}
                       onChange={(e) =>
                         setFormData({ ...formData, message: e.target.value })
