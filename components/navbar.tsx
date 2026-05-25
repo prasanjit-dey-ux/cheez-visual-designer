@@ -58,7 +58,7 @@ export function Navbar() {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            AC<span className="text-primary">.</span>
+            CZ<span className="text-primary">.</span>
           </motion.a>
 
           {/* Desktop Navigation */}
