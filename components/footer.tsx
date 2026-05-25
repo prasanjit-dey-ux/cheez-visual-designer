@@ -25,17 +25,26 @@ export function Footer() {
   ]
 
   return (
-    <footer className="py-12 border-t border-border">
+    <footer className="relative py-12 border-t border-border/20">
+      {/* Emerald green and silver gradient background */}
+      <div 
+        className="absolute inset-0 -z-10"
+        style={{
+          background: `linear-gradient(135deg, rgb(49, 130, 101) 0%, rgb(30, 58, 80) 50%, rgb(200, 204, 210) 100%)`,
+          opacity: 0.15,
+        }}
+      />
+      
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Logo */}
           <motion.a
             href="#hero"
-            className="text-xl font-semibold tracking-tight text-foreground"
+            className="text-xl font-semibold tracking-tight text-white"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            CZ<span className="text-primary">.</span>
+            CZ<span className="text-emerald-300">.</span>
           </motion.a>
 
           {/* Social Links */}
@@ -50,7 +59,7 @@ export function Footer() {
                   rel={link.name !== "Email" ? "noopener noreferrer" : undefined}
                   whileHover={{ scale: 1.1, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
+                  className="p-2 rounded-lg text-gray-300 hover:text-emerald-300 hover:bg-emerald-500/20 transition-colors"
                   aria-label={link.name}
                 >
                   <Icon size={20} />
@@ -60,7 +69,7 @@ export function Footer() {
           </div>
 
           {/* Copyright */}
-          <p className="text-sm text-muted-foreground">
+          <p className="text-sm text-gray-300">
             © {currentYear} Chee_z. All rights reserved.
           </p>
         </div>
