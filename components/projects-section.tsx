@@ -17,7 +17,7 @@ const projects = [
     color: "from-violet-500/20 to-fuchsia-500/20",
   },
   {
-    title: "Crypto App Redesign (trustwallet)",
+    title: "Crypto App Redesign",
     category: "UI/Product",
     description:
       "Comprehensive redesign of a crypto mobile application, improving user engagement by 45%.",
