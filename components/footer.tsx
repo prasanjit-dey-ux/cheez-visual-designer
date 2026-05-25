@@ -9,17 +9,17 @@ export function Footer() {
   const socialLinks = [
     {
       name: "Email",
-      href: "mailto:hello@alexandrachen.design",
+      href: "mailto:okaforc110@gmail.com",
       icon: Mail,
     },
     {
       name: "Behance",
-      href: "https://behance.net",
+      href: "https://www.behance.net/Chee_z",
       icon: ExternalLink,
     },
     {
       name: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/chizoba-okafor-a08b53274",
       icon: Linkedin,
     },
   ]
@@ -35,7 +35,7 @@ export function Footer() {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            AC<span className="text-primary">.</span>
+            CZ<span className="text-primary">.</span>
           </motion.a>
 
           {/* Social Links */}
@@ -61,7 +61,7 @@ export function Footer() {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Alexandra Chen. All rights reserved.
+            © {currentYear} Chee_z. All rights reserved.
           </p>
         </div>
       </div>
