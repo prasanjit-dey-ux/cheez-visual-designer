@@ -25,7 +25,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="relative py-12 border-t border-border/20">
+    <footer className="border-t border-white/10 bg-emerald-950/40 backdrop-blur-xl">
       {/* Emerald green and silver gradient background */}
       <div 
         className="absolute inset-0 -z-10"
