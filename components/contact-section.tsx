@@ -175,6 +175,7 @@ export function ContactSection() {
                     <input
                       type="text"
                       id="name"
+                      name="name"
                       value={formData.name}
                       onChange={(e) =>
                         setFormData({ ...formData, name: e.target.value })
