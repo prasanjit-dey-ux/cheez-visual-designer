@@ -32,7 +32,7 @@ const projects = [
       "Award-winning motion graphics campaign for an international private blockchain.",
     image: "/projects/ethereal.jpg",
     link: "https://www.behance.net/gallery/243757641/AI-Video-Contents",
-    color: "from-amber-400/20 to-orange-600/20",
+   
   },
   {
     title: "Brand visual marketing",
