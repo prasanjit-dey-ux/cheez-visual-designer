@@ -41,7 +41,7 @@ const projects = [
       "Viral social media visuals that reached 10M+ impressions promoting brand awareness.",
     image: "/projects/verde.jpg",
     link: "https://www.behance.net/gallery/243718609/GRAPHIC-DESIGNS",
-    color: "from-sky-400/20 to-cyan-400/20",
+    
   },
   {
     title: "Branded mugs and hoodie",
