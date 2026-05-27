@@ -14,7 +14,7 @@ const projects = [
       "Complete brand identity system for a luxury food delivery startup, including logo, packaging, and digital presence.",
     image: "/projects/myproject.jpg",
     link: "https://www.behance.net/gallery/243720665/FOOD-ORDERING-APP",
-    color: "from-violet-500/20 to-fuchsia-500/20",
+    
   },
   {
     title: "Crypto App Redesign",
@@ -23,7 +23,7 @@ const projects = [
       "Comprehensive redesign of a crypto mobile application, improving user engagement by 45%.",
     image: "/projects/nexus.jpg",
     link: "https://www.behance.net/gallery/245065021/REDESIGN-OF-A-CRYPTO-WALLET",
-    color: "from-cyan-400/20 to-emerald-500/20",
+    
   },
   {
     title: "Midnight Network Motion Series",
@@ -50,7 +50,7 @@ const projects = [
       "Premium packaging design for specialty design brand, featured in Design Week.",
     image: "/projects/artisan.jpg",
     link: "https://www.behance.net/gallery/243718609/GRAPHIC-DESIGNS",
-    color: "from-amber-300/20 to-yellow-500/20",
+    
   },
   {
     title: "Synergio Visual Identity",
@@ -59,7 +59,7 @@ const projects = [
       "Modern visual identity for AI technology company, emphasizing innovation and trust.",
     image: "/projects/techsphere.jpg",
     link: "https://www.behance.net/gallery/243713397/SYNERGIO-APP",
-    color: "from-sky-400/20 to-emerald-400/20",
+    
   },
 ]
 
