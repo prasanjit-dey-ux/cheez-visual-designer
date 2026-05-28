@@ -21,3 +21,4 @@ export default function Home() {
     </main>
   )
 }
+<div className="bg-black/70 backdrop-blur-sm"></div>
