@@ -124,15 +124,7 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply text-foreground;
-    background-color: oklch(0.08 0.01 260);
-    background-image: url('/bg-logo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+  
   html {
     scroll-behavior: smooth;
   }
