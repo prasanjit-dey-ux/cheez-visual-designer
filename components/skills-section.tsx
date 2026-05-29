@@ -86,9 +86,10 @@ export function SkillsSection() {
   const toolSkills = skills.filter((s) => s.category === "tools")
 
   return (
-    <section id="skills" className="py-24 lg:py-32 bg-secondary/30">
+    <section id="skills" className="relative overflow-hidden py-24 lg:py-32 bg-secondary/30">
 
-      <div className="" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-primary/15 rounded-full blur-[130px] pointer-events-none" 
+  aria-hidden="true" />
       
      <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <motion.div
