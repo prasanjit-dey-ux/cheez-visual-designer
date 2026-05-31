@@ -10,7 +10,15 @@ export function ResumeSection() {
   const isInView = useInView(ref, { once: true })
 
   return (
-    <section id="resume" className="py-24 lg:py-32 bg-secondary/30">
+    <section id="resume" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+
+      {/* Animated background gradient */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/10 rounded-full blur-3xl animate-pulse delay-1000" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
+      </div>
+      
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <motion.div
           ref={ref}
