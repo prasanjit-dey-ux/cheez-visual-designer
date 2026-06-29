@@ -14,12 +14,12 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Alexandra Chen | Visual Designer',
-  description: 'Award-winning visual designer specializing in branding, UI/UX, and creative strategy. View my portfolio and get in touch.',
+  title: 'Chee_z | Visual Designer',
+  description: 'Portfolio website of Chee_z Visual Designer. View my portfolio and get in touch.',
   keywords: ['Visual Designer', 'Brand Designer', 'UI/UX', 'Portfolio', 'Creative Strategist'],
   openGraph: {
-    title: 'Alexandra Chen | Visual Designer',
-    description: 'Award-winning visual designer specializing in branding, UI/UX, and creative strategy.',
+    title: 'Chee_z | Visual Designer',
+    description: 'Portfolio website of Chee_z Visual Designer',
     type: 'website',
   },
   icons: {
