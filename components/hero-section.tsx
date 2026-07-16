@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 import { ArrowDown, ExternalLink, Download } from "lucide-react"
+import Image from "next/image"
+
 
 export function HeroSection() {
   return (
@@ -19,9 +21,33 @@ export function HeroSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8 py-24 lg:py-32">
         <div className="max-w-4xl">
           <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, ease: "easeOut" }}
+            className="relative mb-6 inline-block group"
+          >
+            {/* Glowing background gradient ring */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-accent opacity-50 blur-md group-hover:opacity-85 transition-opacity duration-300" />
+            <div className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border border-border bg-background">
+              <Image
+                src="/chee-z.jpg"
+                alt="Chee_z - Visual Designer"
+                fill
+                priority
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+            {/* Pulsing status dot */}
+            <span className="absolute bottom-1 right-1 flex h-4 w-4">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-4 w-4 bg-emerald-500 border-2 border-background"></span>
+            </span>
+          </motion.div>
+
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
           >
             <span className="inline-block px-4 py-1.5 mb-6 text-xs font-medium tracking-wider uppercase text-primary border border-primary/30 rounded-full bg-primary/5">
               Available for Projects
@@ -31,7 +57,7 @@ export function HeroSection() {
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
             className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground mb-4"
           >
           Chee_z
@@ -40,7 +66,7 @@ export function HeroSection() {
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
             className="text-xl sm:text-2xl text-primary font-medium mb-8"
           >
             Visual Designer{" "}
@@ -51,7 +77,7 @@ export function HeroSection() {
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
             className="text-lg text-muted-foreground max-w-2xl mb-10 leading-relaxed"
           >
             I craft compelling visual narratives that transform brands and captivate
@@ -63,7 +89,7 @@ export function HeroSection() {
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
             className="flex flex-wrap gap-4"
           >
             <a

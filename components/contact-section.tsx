@@ -119,12 +119,12 @@ export function ContactSection() {
             </div>
 
             <div className="mt-8">
-              <p className="text-muted-foreground">
+              <div className="text-muted-foreground">
                 <div className="relative"></div>
                 Based in San Francisco, CA
                 <br />
                 Available for remote collaborations worldwide
-              </p>
+              </div>
               <div className="absolute left-0 top-full mt-8 -z-10"></div>
                 <div className="w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-pulse" />
             </div>
